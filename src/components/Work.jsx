@@ -60,7 +60,7 @@ const Work = () => {
                                           justify-center items-center">
                                 <span className="text-2xl font-bold text-white tracking-wider">Hotel Booking Website</span>
                                 <div className="pt-8 text-center">
-                                   <a href='https://github.com/taka5566/capstone'>
+                                   <a href='https://hotelapp-5zvs.onrender.com'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                          Live
                                       </button>
