@@ -2,6 +2,9 @@ import React from 'react'
 import proj1 from '../assets/proj1.png'
 import proj2 from '../assets/proj2.png'
 import proj3 from '../assets/proj3.png'
+import proj4 from '../assets/proj4.png'
+import proj5 from '../assets/proj5.png'
+
 
 
 const Work = () => {
@@ -18,12 +21,12 @@ const Work = () => {
                           shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                           h-[200px] bg-cover relative">
 
-                          <img src={proj1} alt=''></img>
+                          <img src={proj5} alt=''></img>
                           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
                                           justify-center items-center">
-                                <span className="text-2xl font-bold text-white tracking-wider">Canvas Project</span>
+                                <span className="text-2xl font-bold text-white tracking-wider">Real time Chat App</span>
                                 <div className="pt-8 text-center">
-                                   <a href='https://taka5566.github.io/taka5566github.io/'>
+                                   <a href='https://chat-app-v84f.onrender.com/login/'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                          Live
                                       </button>
@@ -33,34 +36,54 @@ const Work = () => {
 
                          </div>
 
-            <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden
+          <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden
                           shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                           h-[200px] bg-cover relative">
 
                           <img src={proj2} alt=''></img>
                           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
                                           justify-center items-center">
-                                <span className="text-2xl font-bold text-white tracking-wider">Login Website</span>
+                                <span className="text-2xl font-bold text-white tracking-wider">Taiko Map Generator</span>
                                 <div className="pt-8 text-center">
-                                   <a href='https://github.com/taka5566/jobscrapingweb'>
+                                   <a href='https://taka5566.github.io/taiko-map-generator/'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                         Live
+                                         For any Taiko emulator!
                                       </button>
                                    </a>
                                 </div>
                           </div>
 
             </div>
-          <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden
+
+            <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden
+                          shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                          h-[200px] bg-cover relative">
+
+                          <img src={proj4} alt=''></img>
+                          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
+                                          justify-center items-center">
+                                <span className="text-2xl font-bold text-white tracking-wider">2 Player Fighting Game</span>
+                                <div className="pt-8 text-center">
+                                   <a href='https://taka5566.github.io/fightingGame/'>
+                                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                         Game for 2 players!
+                                      </button>
+                                   </a>
+                                </div>
+                          </div>
+
+            </div>
+
+            <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden
                           shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                           h-[200px] bg-cover relative">
 
                           <img src={proj3} alt=''></img>
                           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
                                           justify-center items-center">
-                                <span className="text-2xl font-bold text-white tracking-wider">Hotel Booking Website</span>
+                                <span className="text-2xl font-bold text-white tracking-wider">Hotel Booking App</span>
                                 <div className="pt-8 text-center">
-                                   <a href='https://hotelapp-5zvs.onrender.com'>
+                                   <a href='https://hotelapp-5zvs.onrender.com/'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                          Live
                                       </button>
@@ -69,6 +92,28 @@ const Work = () => {
                           </div>
 
             </div>
+
+            <div className="transform transition-transform duration-300 hover:scale-105 overflow-hidden
+                          shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
+                          h-[200px] bg-cover relative">
+
+                          <img src={proj1} alt=''></img>
+                          <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
+                                          justify-center items-center">
+                                <span className="text-2xl font-bold text-white tracking-wider">Canvas App</span>
+                                <div className="pt-8 text-center">
+                                   <a href='https://taka5566.github.io/taka5566github.io/'>
+                                      <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                         Live
+                                      </button>
+                                   </a>
+                                </div>
+                          </div>
+
+            </div>
+
+
+
 
 
                          
