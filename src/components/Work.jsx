@@ -9,7 +9,8 @@ import proj5 from '../assets/proj5.png'
 
 const Work = () => {
   return (
-    <div className="max-w-[1200px] mx-auto p-5" id='work'>
+    <div className="bg-black bg-opacity-40 backdrop-filter backdrop-blur-md rounded-lg
+    max-w-[1200px] mx-auto p-5" id='work'>
     
        <div className="pb-8">
           <p className='text-4xl mb-3 font-bold primary-color'>Work</p>

@@ -5,6 +5,8 @@ import About from "./components/About";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
+import Education from "./components/Education";
 
 
 function App() {
@@ -15,8 +17,10 @@ function App() {
         <Skills></Skills>
         <About></About>
         <Work></Work>
+        <Education></Education>
         <Contact></Contact>
         <Footer></Footer>
+        <ScrollToTopButton></ScrollToTopButton>
 
     </div>
   );

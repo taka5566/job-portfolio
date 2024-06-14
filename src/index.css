@@ -9,7 +9,10 @@
 }
 
 body {
-  background-color: black;
+  background-image: url("./assets/bgImage.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .bg-primary-color {
@@ -17,3 +20,22 @@ body {
 
 
 }
+
+.schoolImg {
+  background-image: url('./assets/schoolImg.png');
+
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation: fade-in-right-animation 1s ease-in-out forwards;
+}
+
+@keyframes fade-in-right-animation {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+

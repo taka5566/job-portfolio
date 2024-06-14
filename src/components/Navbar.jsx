@@ -10,7 +10,8 @@ const Navbar = () => {
 
   return (
 
-         <div className="bg-black text-gray-400 h-[100px] max-w-[1200px] mx-auto flex justify-between items-center">
+         <div className=" bg-black bg-opacity-40 backdrop-filter backdrop-blur-md rounded-lg text-gray-400 
+         h-[100px] max-w-[1200px] mx-auto flex justify-between items-center">
 
             <h1 className='text-3xl font-bold primary-color ml-4'>T.Abe</h1>
             <ul className='hidden md:flex'>
