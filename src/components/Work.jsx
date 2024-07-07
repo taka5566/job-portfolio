@@ -29,7 +29,7 @@ const Work = () => {
                                 <div className="pt-8 text-center">
                                    <a href='https://x-clone-6xtz.onrender.com'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                         Live
+                                         Live (It might take some time to load)
                                       </button>
                                    </a>
                                 </div>
