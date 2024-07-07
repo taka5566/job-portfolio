@@ -22,12 +22,12 @@ const Work = () => {
                           shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                           h-[200px] bg-cover relative">
 
-                          <img src={proj5} alt=''></img>
+                          <img src={proj3} alt=''></img>
                           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
                                           justify-center items-center">
-                                <span className="text-2xl font-bold text-white tracking-wider">Real time Chat App</span>
+                                <span className="text-2xl font-bold text-white tracking-wider">Twitter(X) clone</span>
                                 <div className="pt-8 text-center">
-                                   <a href='https://chat-app-v84f.onrender.com/login/'>
+                                   <a href='https://x-clone-6xtz.onrender.com'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                          Live
                                       </button>
@@ -79,14 +79,14 @@ const Work = () => {
                           shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center
                           h-[200px] bg-cover relative">
 
-                          <img src={proj3} alt=''></img>
+                          <img src={proj5} alt=''></img>
                           <div className="opacity-0 group-hover:opacity-90 bg-[gray]/70 absolute inset-0 flex flex-col
                                           justify-center items-center">
-                                <span className="text-2xl font-bold text-white tracking-wider">Hotel Booking App</span>
+                                <span className="text-2xl font-bold text-white tracking-wider">Real time chat app</span>
                                 <div className="pt-8 text-center">
-                                   <a href='https://hotelapp-5zvs.onrender.com/'>
+                                   <a href='https://chat-app-v84f.onrender.com'>
                                       <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                         Live
+                                         Live (It might take some time to load)
                                       </button>
                                    </a>
                                 </div>

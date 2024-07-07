@@ -26,7 +26,7 @@ const Education = () => {
   }, []);
 
   return (
-    <div className=""  ref={educationRef}>
+    <div className="max-w-[1200px] mx-auto sm:py-20 p-5"  ref={educationRef}>
        <div className="text-center">
           <h2 className='text-4xl font-bold leading-tight primary-color p-6'>Education</h2>
        </div><div className="flex">
